@@ -1,0 +1,94 @@
+---
+title: Introduction to Nicelydone
+description: Discover Nicelydone, a comprehensive platform offering over 178,400 screen examples and 7,900 user flow examples from leading SaaS web apps to inspire your product design and save time.
+---
+
+## Overview
+
+Nicelydone empowers product designers and teams with a vast library of real-world web app designs. Explore over `178,400` curated screen examples and `7,900` user flow examples sourced from top SaaS applications like Notion, Slack, and Figma. You save hours searching for design inspiration by accessing high-fidelity screenshots, interactive flows, and advanced search filters tailored for modern UI/UX needs.
+
+<Callout kind="info">
+Nicelydone updates its library weekly with fresh examples from emerging SaaS products, ensuring you always have the latest design trends at your fingertips.
+</Callout>
+
+## Key Features
+
+Discover the core capabilities that make Nicelydone indispensable for design workflows.
+
+<Columns cols={3}>
+  <Card title="Screen Library" icon="image" href="/screens">
+    Browse `178,400+` screens categorized by component type, app, and style. Filter by dark mode, mobile views, or specific UI patterns.
+  </Card>
+  <Card title="User Flows" icon="git-branch" href="/flows">
+    Study `7,900+` complete user journeys from onboarding to checkout. Visualize step-by-step interactions in top apps.
+  </Card>
+  <Card title="Advanced Search" icon="search" href="/search">
+    Use AI-powered search with natural language queries like "login modals with social auth" to find exact matches instantly.
+  </Card>
+</Columns>
+
+## Who It's For
+
+Nicelydone serves a range of users focused on accelerating design decisions.
+
+<Tabs>
+  <Tab title="Product Designers" icon="feather">
+    You prototype faster by referencing production-ready UIs. Export screens directly to Figma or Sketch for seamless integration into your workflow.
+  </Tab>
+  <Tab title="Product Managers" icon="users">
+    Validate ideas against proven patterns from successful SaaS apps. Share flow diagrams with stakeholders to align on UX strategy.
+  </Tab>
+  <Tab title="Developers" icon="code">
+    Inspect responsive breakpoints and component states. Copy CSS properties or embed previews in your docs.
+  </Tab>
+</Tabs>
+
+## Quick Start
+
+Get up and running in under two minutes.
+
+<Steps>
+  <Step title="Sign Up" icon="user-plus">
+    Create a free account at `https://nicelydone.app/register`. No credit card required for the starter plan.
+  </Step>
+  <Step title="Search Examples" icon="search">
+    Use the search bar to query "dashboard analytics" or browse categories like "Pricing Pages".
+  </Step>
+  <Step title="Save & Export" icon="save">
+    Add screens to collections and export as PNG, PDF, or Figma plugin import.
+  </Step>
+</Steps>
+
+<CodeGroup tabs="HTML,React">
+  ```html
+  <img src="https://nicelydone.app/api/screenshot/12345" alt="Dashboard example" width="1200" />
+  ```
+  ```jsx
+  import { NiceScreenshot } from 'nicelydone-embed';
+
+  function DesignPreview() {
+    return (
+      <NiceScreenshot
+        id="12345"
+        theme="dark"
+        size="full"
+      />
+    );
+  }
+  ```
+</CodeGroup>
+
+## Next Steps
+
+<Columns cols={2}>
+  <Card title="Browse Screens" icon="image" href="/quickstart">
+    Dive into the full library and start collecting inspirations.
+  </Card>
+  <Card title="Explore Flows" icon="git-branch" href="/flows">
+    Map out your next user journey with proven examples.
+  </Card>
+</Columns>
+
+<Callout kind="tip">
+Ready to spark your next design? Head to the [Quickstart](/quickstart) guide for pro tips on advanced filters and exports.
+</Callout>
