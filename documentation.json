@@ -46,6 +46,16 @@
                 "icon": "search"
               }
             ]
+          },
+          {
+            "group": "About Nicelydone",
+            "pages": [
+              {
+                "title": "What Is NicelyDone",
+                "path": "what-is-nicelydone"
+              }
+            ],
+            "icon": "a-large-small-icon"
           }
         ]
       },
